@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Xena Events</title>
+<style>
+aside { 
+                float:right; 
+                width: 40%; 
+                float: right; 
+                 padding:3px;  
+                margin:1px; 
+                height:50px; 
+            }
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  
+  background-image: url("https://www.bathballoons.co.uk/assets/focus/when_to_fly.jpg");
+
+  
+  height: 100%; 
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+</style>
+</head>
+<body>
+<div class="bg">
+<aside>
+<svg height="130" width="500" >
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+  <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">XENA</text>
+  Sorry, your browser does not support inline SVG.
+</svg>
+</aside>
+</br></br>
+<center><h1 style="color:White;"> XENA Events</h1></center></BR></BR>
+<p style="color:White;font-size:20px;">Registration for Hot balloon riding event from Feb 28th 2017 onwards for 5 days!! </p>
+<form action="/action_page.php" style="color:White;" > 
+    <div>                
+    </div>   
+     
+    <table>  
+       <tr>  
+              <td >Name:</td>  
+              <td ><input type="text"  name="Name"  pattern="[A-Za-z]+"  title="Username should only contain Alphabets." Required></td>  
+       </tr>  
+       <tr>  
+              <td>Age:</td>  
+              <td><input type="Number" name="Age" min="18"  step="1" Required/>
+         
+        </td>  
+       </tr>  
+<tr>  
+              <td>Email ID:</td>  
+              <td><input type="email" name="Email ID" Required/>
+         
+        </td>  
+       </tr>
+<tr>  
+              <td>City:</td>  
+              <td>  <input list="City" name="City" required>
+  <datalist id="City">
+    <option value="Rajkot">
+    <option value="Vizag">
+    <option value="Bangalore">
+    </datalist>
+         
+        </td>  
+       </tr>
+              
+        <tr>  
+        <td> <input type="submit">
+               </td>  
+        </tr>  
+</table>   
+    </form>
+</div>
+</body>
+</html>
